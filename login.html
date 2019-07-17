@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Font Awesome: https://fontawesome.com/icons?d=gallery&m=free -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <!-- custom css-->
+    <link rel="stylesheet" href="css/media_queries.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+
+    <title>Cricket for kids! Login page</title>
+</head>
+
+<body>
+    <!-- Start Body -->
+
+    <!-- Navigation to applicable web pages -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class=container-fluid>
+            <a class="navbar-brand" href="index.html">Cricket4Kids</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarsExampleDefault">
+                <ul class="navbar-nav">
+                    <!-- Default highlight active page (Home page)-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="register.html">Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactus.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header of the page-->
+    <div class="container-fluid">
+        <header>
+            <div class="row justify-content-center">
+                <div class="font-italic">
+                    <h1><img src="img/common/bat_icon.jpg" alt="bat icon">Kids & Cricket</h1>
+                </div>
+            </div>
+        </header>
+        <!-- Content - Vision of the website-->
+        <main>
+            <div class="row justify-content-center">
+                <!-- form action has post due to PII elements-->
+                <form action="selection.html" class="form-signin" method="POST">
+                    <!-- label is shown only on large screens with bootstrap attributes  
+                         label and input is designed to show on the same screen 
+                    Username is set to be default type-in upon loading the page and required fields-->
+                    <div class="form-group row">
+                        <label class="col-form-label col-sm-3 d-none d-md-block" for="inputUsername">UserName:</label>
+                        <div class="col-sm-9">
+                            <input type="text" id="inputUsername" class="form-control " placeholder="User Name" required autofocus>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-form-label col-sm-3 d-none d-md-block" for="inputPassword">Password:</label>
+                        <div class="col-sm-9">
+                            <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                        </div>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="rembcheck1">
+                        <label class="form-check-label" for="rembcheck1">Remember me</label>
+                    </div>
+                    <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+                    <!-- copyright to author-->
+                    <p class="mt-5 mb-3 text-muted ">&copy; Suriya</p>
+                    <!-- No account, redirect to register page below -->
+                    <section>
+                        <h4>Don't have an account yet?</h4>
+                        <p><small>An account is required to use this site so we <br /> are able to differentiate user data.</small></p>
+                        <a class="btn btn-secondary btn-sm float-right " href="register.html ">Register</a>
+                    </section>
+                    <!-- password reset page is added here to show the option. it is extra page -->
+                    <a class="btn btn-sm btn-light mb-2 col-sm-5" href="pwd_reset.htmlsubmit">Forgot password ?</a>
+                </form>
+
+            </div>
+        </main>
+        <!-- horizontal marker to differentiate the footer section-->
+        <hr />
+
+        <footer class="footer ">
+            <!-- Start of footer -->
+            <!-- links to ICC cricket guidelines and credit page-->
+
+            <div class="row ">
+                <br />
+                <p class="text-left small"><a href="https://www.icc-cricket.com/about/cricket/rules-and-regulations/playing-conditions " target="_blank">ICC cricket rules and regulations</a></p>
+                <hr />
+                <p class="text-right small"><a href="https://www.icc-cricket.com/about " target=_blank>&copy;icc</a></p>
+            </div>
+            <div class="row justify-content-center ">
+                <h5 class="display-5 ">Follow <span class="font-italic font-weight-bold ">Cricket4Kids</span> On social</h5>
+            </div>
+
+            <!--  links to cricket4world social sites-->
+
+            <div class="row justify-content-center">
+                <ul class="d-flex flex-row list-unstyled ">
+                    <li>
+                        <a href="https://www.facebook.com/cricketworldcup/ " target="facebook"><img src="img/common/facebook.png " alt="facebook ">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/cricketworldcup " target="twitter"><img src="img/common/twitter.png " alt="twitter ">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/cricketworldcup/ " target="instagram"><img src="img/common/instagram.jpg " alt="instagram ">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- End of footer-->
+        </footer>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous"></script>
+</body>
+
+</html>
