@@ -1,6 +1,6 @@
 /* Move down content because we have a fixed navbar that is 3.5rem tall */
 
 body {
-    font-family: CWC, Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-top: 3.5rem;
 }
