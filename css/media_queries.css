@@ -12,7 +12,8 @@
 
 
 /* Small devices (portrait tablets and large phones, 600px and up)
-Remove the images */
+Remove the images 
+Resize the jumbotron for about page in responsive design*/
 
 @media only screen and (min-width: 600px) and (max-width: 768px) {
     .lgimgHandler {
