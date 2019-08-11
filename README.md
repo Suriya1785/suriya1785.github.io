@@ -1,28 +1,26 @@
-# Cricket Info for Kids
-##### 2019 Hartcode program (Sample project)
-##### Author: Suriya N Rajamani
+# Enjoy the Outdoor (United States)
+##### 2019 Hartcode program (JS Bootcamp project)
+#### Author : Suriya N Rajamani
+
 ## Purpose:
-Educate kids/childer/teenagers about cricket games and happening across the world and Inspire them to play and be part of this sport.
-Buy cricketing tool kits
-## About
-This page provides gallery show of great cricketers and brief note and link to social site to read and thereby inspire kids.
+Help Tourists (Immigrants) and local people of United States to identify the national park to plan their vacation and know historical information and value of those spots with brief notes.
+Educate the visitors with climate change and help save nature for the future.
 
-## Audience
-- Primary: Kids, Children, Teenagers  - Know about ICC approved cricketing nations, players, cricket rules, cricket kits.
-- Secondary: Adults and Cricketing goods retailers
+# Audience:
+- Primary: Tourists, family and  kids to enjoy and be healthy.
+- Secondary: Students/Data Analyst to understand the place and its historic importance.
 
-### Home page
--   Links to ICC website, cricket rules, Navigation to various pages of the sites, Logo of the page with picture of cricketing field/Parent & Kid.
+## Home page
+- Links to social sites for more information, Navigation to pages such as Natural Parks Search Page and Mountains search page. Logo of the site with picture.
 
-### Signin page
-- Provides website access by entering user name, password, login to list and buy cricket kit.
+## Natural Parks Search Page
+- Options to find parks by location or park types. Upon selection, it lists down the list of applicable parks from our data Warehouse collections.
+- Upon selection of available parks, it provides brief note on location and address, phone numbers.
+- Certain parks provide URL for their sites to get more information.
 
-### Register page
-- This page allows to gather information to register which will be used to post cricketing goods upon sale.
+## Mountains Search Page
+- Lists down the mountains for user selection.
+- Upon user selection, it provides brief information about mountain with image and location details.
 
-### Cricketgood selection page
-- This page lists the available brands and quantity of the selected cricket kits and its prize.
-- Allows admin to add the list of add new items to selection dropdown based on availability
-
-##### Credits
-- content provided by [wiki](http://www.wiki.com), [espncricinfo](https://www.espncricinfo.com/), [ICC](https://www.icc-cricket.com)
+# Credits
+- content provided by [nytimes](https://www.nytimes.com), [wiki](http://www.wiki.com), [washingtonpost](https://www.washingtonpost.com),  [usnationalparkservice](https://www.nps.gov/index.htm), [ustourism](https://www.visittheusa.com/)

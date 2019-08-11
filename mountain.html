@@ -15,7 +15,7 @@
     <!-- custom css-->
     <link rel="stylesheet" href="css/sites.css" />
 
-    <title>EnjoyTheOutDoorSaveNature</title>
+    <title>EnjoyTheOutDoorMountains</title>
 </head>
 
 <body>
@@ -32,7 +32,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="naturalPark.html">Natural Park</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="mountain.html">Mountains</a>
                 </li>
             </ul>
@@ -51,45 +51,36 @@
     </header>
 
     <!-- Content - Vision of the website-->
-
     <main>
         <div class="container">
-            <section class="row">
-                <div class="col-md-5">
-                    <h2 class="center">Help you to find the location of natural parks and mountains</h2>
-                    <!-- fonthandler to resize based on device size-->
-                    <p class="text-align-center fonthandler">Time for national policy planners across the globe to accept the dire warnings and crisis scenarios and start thinking about where people will live in the future and what supportive infrastructure is needed. For example, should many
-                        stretches of the United States coastline be declared uninhabitable? Many forests in the West have become kindling. Should building be allowed?</p>
-                </div>
-                <div class="justify-content-center ml-2">
-                    <ul class="list-unstyled list-inline">
-                        <li class="list-inline-item">
-                            <a class="non-underline-link" href="naturalPark.html">
-                                <img class="hideimage" src="images/home/naturalParkIcon.jpg" alt="naturalParkIconMissing">
-                                <br>
-                                <span class="text-secondary text-center">Natural Parks</span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a class="non-underline-link" href="mountain.html">
-                                <img class="hideimage" src="images/home/mountainIcon.jpg" alt="mountainIconMissing">
-                                <br>
-                                <span class="text-secondary text-center">Mountains</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+            <section class="container justify-content-center border">
+                <h3 class="font-italic ml-2 mt-1">US Mountains Search Engine - Helps to find mountains</h3>
+                <form class="form-group" id="mountainForm" action="index.html" target="_self">
+                    <div class="row col-md-8 mt-1 form-inline">
+                        <label class="d-none d-md-inline col-md-3" for="selectMountainList">Mountain Lists</label>
+                        <select id="selectMountainList" class="d-none d-inline form-control col-md-5" name="selectMountainList" autofocus>
+                                <option value =" ">Select Mountain from the list</option>
+                            </select>
+                    </div>
+                    <!-- Dynamically populate the table based on the selection-->
+                    <div>
+                        <table id="itemlist" class="row mt-3">
+                        </table>
+                    </div>
+                    <!-- Error message block-->
+                    <p id="errorMsgId">
+                    </p>
+                </form>
             </section>
         </div>
     </main>
-
     <hr />
 
     <footer class="footer">
         <!-- Start of footer -->
         <!-- links to our parental sites-->
         <div class="row justify-content-center">
-            <h3 class="display-5 font-weight-light">Follow us on parent Sites <span class="font-italic font-weight-bold">US Tourism</span> On social</h3>
+            <h4 class="display-5 font-weight-light">Follow us on parent Sites <span class="font-italic font-weight-bold">US Tourism</span> On social</h4>
         </div>
         <!--  links to Parent Sites-->
 
@@ -118,7 +109,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous"></script>
     <script async src="https://platform.twitter.com/widgets.js"></script>
+
     <!-- Custom JavaScripts (None)-->
+    <script src="scripts/mountainsInit.js"></script>
 </body>
 
 </html>
