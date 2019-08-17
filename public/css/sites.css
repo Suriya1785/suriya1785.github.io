@@ -1,0 +1,103 @@
+    /* Padding to support responsive and overcome navigation bar */
+    
+    body {
+        padding-top: 1.5rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    footer {
+        padding-left: 1.5rem;
+    }
+    /* Error message validation color */
+    
+    #errorMsgId {
+        color: green;
+    }
+    
+    #errorMsgId.badInput {
+        color: red;
+    }
+    /*Apply styles to show tbody less than thead*/
+    
+    tbody {
+        font-size: 100%;
+    }
+    
+    #courseTbodyId {
+        font-size: 100%;
+    }
+    /* Apply table width for nice view for phone number and other fields*/
+    /* .studentColTwidth {
+        width: 90%;
+    } */
+    /* split the message to have multiple with background 25% */
+    
+    .bgMediumImage {
+        background-image: url("../images/homePage_bg_info.jpg");
+        background-size: 25%;
+    }
+    /* Apply for the list items in the home page for navigation */
+    
+    .non-underline-link {
+        text-decoration: none !important;
+    }
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    
+    @media only screen and (max-width: 600px) {
+        .hideimage {
+            display: none;
+        }
+        h1 {
+            font-size: 2em;
+        }
+        h2 {
+            font-size: 1em;
+        }
+        h3 {
+            font-size: 1em;
+        }
+    }
+    /* Medium devices (landscape tablets, 768px and up) */
+    
+    @media only screen and (min-width: 768px) {
+        .hideimage {
+            display: initial;
+        }
+        h1 {
+            font-size: 2em;
+        }
+        h2 {
+            font-size: 1.5em;
+        }
+        h3 {
+            font-size: 1em;
+        }
+    }
+    /* Large devices (laptops/desktops, 992px and up) */
+    
+    @media only screen and (min-width: 992px) {
+        .hideimage {
+            display: initial;
+        }
+        h1,
+        h2 {
+            font-size: 2em;
+        }
+        h3 {
+            font-size: 1em;
+        }
+    }
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    
+    @media only screen and (min-width: 1200px) {
+        .hideimage {
+            display: initial;
+        }
+        h1,
+        h2 {
+            font-size: 2em;
+        }
+        h3 {
+            font-size: 1em;
+        }
+    }
