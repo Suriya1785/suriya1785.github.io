@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Font Awesome: https://fontawesome.com/icons?d=gallery&m=free -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <!-- custom css-->
+    <link rel="stylesheet" href="css/sites.css" />
+
+    <title>EnjoyTheOutDoorMountains</title>
+</head>
+
+<body>
+    <!-- Start Body -->
+
+    <!-- Navigation to applicable web pages -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-info">
+        <a class="navbar-brand" href="index.html"><img class="rounded-circle" src="images/home/roundlogo.jpg" alt="webLogoMissing">Nature Special</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarsExampleDefault">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="naturalPark.html">Natural Park</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="mountain.html">Mountains</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header of the page outlining the logo-->
+    <header>
+        <div class="jumbotron bgImage bgMediumImage">
+            <div class="container text-right">
+                <h1 class="trend-title display-5 text-white font-italic">Enjoy the Outdoors</h1>
+                <h2 class="font-italic display-5 text-white font-weight-light">A Dire Warning on Climate Change</h2>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- Content - Vision of the website-->
+    <main>
+        <div class="container">
+            <section class="container justify-content-center border">
+                <h3 class="font-italic ml-2 mt-1">US Mountains Search Engine - Helps to find mountains</h3>
+                <form class="form-group" id="mountainForm" action="index.html" target="_self">
+                    <div class="row col-md-8 mt-1 form-inline">
+                        <label class="d-none d-md-inline col-md-3" for="selectMountainList">Mountain Lists</label>
+                        <select id="selectMountainList" class="d-none d-inline form-control col-md-5" name="selectMountainList" autofocus>
+                                <option value =" ">Select Mountain from the list</option>
+                            </select>
+                    </div>
+                    <!-- Dynamically populate the table based on the selection-->
+                    <div>
+                        <table id="itemlist" class="row mt-3">
+                        </table>
+                    </div>
+                    <!-- Error message block-->
+                    <p id="errorMsgId">
+                    </p>
+                </form>
+            </section>
+        </div>
+    </main>
+    <hr />
+
+    <footer class="footer">
+        <!-- Start of footer -->
+        <!-- links to our parental sites-->
+        <div class="row justify-content-center">
+            <h4 class="display-5 font-weight-light">Follow us on parent Sites <span class="font-italic font-weight-bold">US Tourism</span> On social</h4>
+        </div>
+        <!--  links to Parent Sites-->
+
+        <div class="row justify-content-center">
+            <ul class="d-flex flex-row list-unstyled">
+                <li>
+                    <a class="footer-style-facebook" href="https://www.facebook.com/VisitTheUSA/" target="facebook"><i class="fa fa-facebook-square fa-2x"></i>&nbsp;</a>
+                </li>
+                <li>
+                    <a class="footer-style-twitter" href="https://twitter.com/visittheusa?lang=en" target="twitter"><i class="fa fa-twitter-square fa-2x"></i>&nbsp;</a>
+                </li>
+                <li>
+                    <a class="footer-style-instagram" href="https://www.instagram.com/visittheusa/" target="instagram"><i class="fa fa-instagram fa-2x"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- End of footer-->
+    </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous"></script>
+    <script async src="https://platform.twitter.com/widgets.js"></script>
+
+    <!-- Custom JavaScripts (None)-->
+    <script src="scripts/mountainsInit.js"></script>
+</body>
+
+</html>
